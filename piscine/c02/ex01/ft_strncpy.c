@@ -15,6 +15,9 @@ char    *ft_strncpy(char *dest, char *src, unsigned int n)
 
 }
 
+// 1 - Por que ele não pegou só as 3 primeiras letras do hello e colocou na 
+// segunda string?
+
 #include <stdio.h>
 
 int main(){

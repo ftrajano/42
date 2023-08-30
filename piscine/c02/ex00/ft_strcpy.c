@@ -1,5 +1,9 @@
 char    *ft_strcpy(char *dest, char *src)
 {
+    char*   dest_copy;
+    
+    dest_copy = dest;
+    
     while (*src && *dest != '\0')
     {
         *dest = *src;
