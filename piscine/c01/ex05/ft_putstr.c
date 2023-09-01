@@ -8,5 +8,10 @@ void    ft_putstr(char *str)
         str++;
     }
 }
+/*
+int main(){
 
-
+	char	str[] = "hello";
+	ft_putstr(str);
+}
+*/
